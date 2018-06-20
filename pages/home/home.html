@@ -1,0 +1,52 @@
+<ion-header>
+
+    <ion-navbar >
+        <ion-buttons left>
+            <button ion-button menuToggle ><ion-icon name="menu"></ion-icon></button>
+        </ion-buttons>
+
+        <ion-title >
+            {{titulopagina}}
+        </ion-title>
+        <ion-buttons end>
+            <div  id="botonBuscar">
+                <button ion-button icon-only (click)="mostrarBuscar()">
+                        <ion-icon name="search"></ion-icon>
+                </button>
+
+            </div>
+            <!-- (ionInput)="onInput($event)"-->
+            <div  id="barBuscar">
+                <ion-searchbar
+                    id="barButtonBuscar" 
+                    [animated]=true
+                    [(ngModel)]="myInput"
+                    [showCancelButton]="shouldShowCancel"
+                    (search)="onInput($event)"                   
+                    (ionCancel)="onCancel($event)">
+                </ion-searchbar>
+            </div>
+
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+<ion-menu type="overlay" [content]="mycontent">
+
+
+    <ion-content>
+        <ion-list>
+            <ion-item class="menuTitulo" detail-none>Menu</ion-item>
+          <ion-item class="botonmenu" menuClose detail-none>Close Menu</ion-item>
+        </ion-list>
+
+    </ion-content>
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>
+
+<ion-content padding (click)="ocultarBuscar()">
+
+
+
+</ion-content>

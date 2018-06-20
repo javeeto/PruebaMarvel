@@ -1,0 +1,31 @@
+@font-face {
+    font-family: TheBrownies;
+    src: url(../../../estilo/font/TheBrownies.otf);
+}
+@font-face {
+    font-family: LobsterRegular;
+    src: url(../../../estilo/font/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: KarmaRegular;
+    src: url(../../../estilo/font/Karma-Regular.ttf);
+}
+/*
+p{
+    font-family:'KarmaRegular' ;
+}
+.sinopsis{
+    font-family:'KarmaRegular' ;
+}*/
+p img{
+    width:85%;
+}
+.cubierta img{
+    width:85%;
+}
+.cubierta { 
+    margin-top:0%;
+}
+h1 img{
+    width:85%;
+}

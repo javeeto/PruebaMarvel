@@ -1,0 +1,144 @@
+@font-face {
+    font-family: TheBrownies;
+    src: url(../font/TheBrownies.otf);
+}
+@font-face {
+    font-family: LobsterRegular;
+    src: url(../font/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: KarmaRegular;
+    src: url(../font/Karma-Regular.ttf);
+}
+ion-buttons {
+    order: 1
+}
+page-home {
+    .botonmenu{
+        cursor:pointer;
+    }
+    .botonmenu:hover{
+        cursor:pointer;
+        background-color: #d9dddd;
+    }    
+    .nombreautor{
+        width: 80px;
+        height: 30px;
+    }
+    .nombrelibro{
+        width: 100px;
+        height: 30px;
+    }
+    .col{
+        padding: 1px;
+    }
+
+    .textocategoria{
+        font-family:'KarmaRegular' !important;
+        font-size: 30px;
+
+        text-align: left;
+        text-shadow: 2px 2px #000000;        
+        color: white;
+    }
+    hr { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        color: white;
+        border-width: 1px;
+    }
+    .toolbar-title{
+
+        font-family:'KarmaRegular' !important;
+        color:black;
+        text-align: left;
+
+    }
+    .menuTitulo{
+        font-family:'KarmaRegular' !important;
+        color:black;
+        text-align: left;
+        background-color: #e7d8b9;
+    }
+    .toolbar-background{
+        background-color: #e7d8b9;
+    }
+
+    #barBuscar{
+        display:none;
+        visibility:hidden;
+
+
+    }
+    ion-content{
+        background: linear-gradient(-45deg,goldenrod,brown) !important;
+        text-align: center;
+    }
+
+    .text {
+
+
+        font-family:'KarmaRegular' !important;
+        color: black;
+        font-size: 12px;
+        padding: 2px 5px;
+
+    }    
+
+    ion-col{
+        cursor:pointer;
+
+
+    }
+    ion-row{
+        cursor:pointer;
+        text-align: center !important;
+        align-self: center !important;
+
+    }
+
+
+
+    .fotolibro {
+        opacity: 1;
+        text-align:right;
+        height: 150px;
+        width: 120px;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 20px;
+        -webkit-border-radius:20px;
+    }
+    .fotoautor {
+
+        opacity: 1;
+
+        height: 25px;
+        text-align: right;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 20px;
+        -webkit-border-radius:20px;
+    }
+
+    .categoriamarco{
+        text-align:left;
+    }
+    
+    .libromarco{
+
+        background: linear-gradient(45deg,#e7d8b9,white) !important;
+
+        width:fit-content;
+        position:relative;
+        display:inline-block;
+        padding: 1px;
+        margin: 1px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        -webkit-border-radius:20px;
+    }
+
+}
