@@ -98,6 +98,12 @@ page-home {
         align-self: center !important;
 
     }
+    .button-md{
+        font-family:'KarmaRegular' !important;
+        color: white;
+        background-color: brown;
+        height: 3rem;
+    }
 
 
 
@@ -127,7 +133,7 @@ page-home {
         text-align:left;
     }
     
-    .libromarco{
+    .personajemarco{
 
         background: linear-gradient(45deg,#e7d8b9,white) !important;
 
@@ -140,5 +146,22 @@ page-home {
         border-radius: 20px;
         -webkit-border-radius:20px;
     }
+    .itempagina{
+        text-align: center;
+    }
+        
+    .botonpagina{
 
+        background: linear-gradient(45deg,#e7d8b9,white) !important;
+        
+
+        width:fit-content;
+        position:relative;
+        display:inline-block;
+        padding: 1px;
+        margin: 1px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        -webkit-border-radius:20px;
+    }
 }

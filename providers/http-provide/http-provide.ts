@@ -17,7 +17,8 @@ export class HttpProvideProvider {
     constructor(public http: HttpClient) {
         console.log('Hello HttpProvideProvider Provider');
        // this.urlServe = "http://18.188.238.45/Libreria/";
-        this.urlServe = "https://192.168.43.180/libreriala/public/";
+       // this.urlServe = "https://192.168.43.180/libreriala/public/";
+       this.urlServe = "assets/";
        // this.urlServe = "http://192.168.0.195/libreriala/public/";
        // this.urlServe = "https://192.168.0.195/libreriala/public/";
        // this.urlServe = "https://18.188.238.45/libreriala/public/";
